@@ -12,10 +12,12 @@ class Ckeditor::ApplicationController < Ckeditor.parent_controller.constantize
   def respond_with_asset(asset)
     asset_response = Ckeditor::AssetResponse.new(asset, request)
     asset.data = asset_response.data
-
+    puts asset.inspect
     if asset.save
+      puts "\n\nSAVING THE ASSET\n\n"
       render asset_response.success(config.relative_url_root)
     else
+      puts "\n\nCOULDNT SAVE THE ASSET\n\n"
       render asset_response.errors
     end
   end
