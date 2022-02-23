@@ -3,6 +3,10 @@
 
 ## NEXT
 
+## Ckeditor 5.1.5 (2-23-2022)
+
+  * Initialize data in AssetResponse
+
 ## Ckeditor 5.1.4 (2-23-2022)
 
   * Re-add ContentTypeDetector

@@ -17,11 +17,13 @@ module Ckeditor
       @asset = asset
       @request = request
       @params = request.params
+
+      @asset.data = Ckeditor::Http.normalize_param(file, @request)
     end
 
-    def data
-      @data ||= read_data
-    end
+    # def data
+    #   @data ||= read_data
+    # end
 
     def json?
       params[:responseType] == JSON_TYPE
@@ -109,11 +111,11 @@ module Ckeditor
       end
     end
 
-    def read_data
-      data = Ckeditor::Http.normalize_param(file, request)
-      return if data.size.zero? || data.original_filename.blank?
+    # def read_data
+    #   data = Ckeditor::Http.normalize_param(file, request)
+    #   return if data.size.zero? || data.original_filename.blank?
 
-      data
-    end
+    #   data
+    # end
   end
 end
