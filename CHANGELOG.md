@@ -3,6 +3,10 @@
 
 ## NEXT
 
+## Ckeditor 5.1.3 (2-23-2022)
+
+  * Add extract_dimensions and extract_content_type as AssetResponse InstanceMethods
+
 ## Ckeditor 5.1.2 (2-23-2022)
 
   * Update CDN to use CKEditor 4.17.0
