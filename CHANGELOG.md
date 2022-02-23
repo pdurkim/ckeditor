@@ -3,9 +3,13 @@
 
 ## NEXT
 
+## Ckeditor 5.1.4 (2-23-2022)
+
+  * Re-add ContentTypeDetector
+
 ## Ckeditor 5.1.3 (2-23-2022)
 
-  * Add extract_dimensions and extract_content_type as AssetResponse InstanceMethods
+  * Re-add extract_dimensions and extract_content_type as AssetResponse InstanceMethods
 
 ## Ckeditor 5.1.2 (2-23-2022)
 

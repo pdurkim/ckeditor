@@ -2,7 +2,7 @@
 
 module Ckeditor
   module Version
-    GEM = '5.1.3'
+    GEM = '5.1.4'
     EDITOR = '4.17.0'
   end
 end

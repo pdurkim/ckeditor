@@ -13,6 +13,7 @@ module Ckeditor
       module ClassMethods
         def self.extended(base)
           base.class_eval do
+            process :extract_content_type
             process :extract_size
           end
         end
