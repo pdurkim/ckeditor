@@ -3,6 +3,10 @@
 
 ## NEXT
 
+## Ckeditor 5.1.2 (2-23-2022)
+
+  * Update CDN to use CKEditor 4.17.0
+
 ## Ckeditor 5.1.1 (12-1-2021)
 
   * Add hook for action_policy support
