@@ -7,7 +7,7 @@ gemspec
 gem 'rails', '~> 5.2.4.6'
 
 platforms :ruby do
-  gem 'cocaine'
+  gem 'cocaine', '= 0.5.8'
   gem 'sass'
   gem 'sqlite3', '~> 1.3.6'
   gem 'sprockets', '~> 3.7.2'

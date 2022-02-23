@@ -3,6 +3,10 @@
 
 ## NEXT
 
+## Ckeditor 5.1.7 (2-23-2022)
+
+  * Downgrade `cocaine` to `0.5.8`
+
 ## Ckeditor 5.1.6 (2-23-2022)
 
   * Add `cocaine` for ContentTypeDetector
