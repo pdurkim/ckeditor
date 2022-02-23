@@ -3,6 +3,10 @@
 
 ## NEXT
 
+## Ckeditor 5.1.6 (2-23-2022)
+
+  * Add `cocaine` for ContentTypeDetector
+
 ## Ckeditor 5.1.5 (2-23-2022)
 
   * Initialize data in AssetResponse
