@@ -75,7 +75,7 @@ module Ckeditor
 
   # CKEditor CDN
   mattr_accessor :cdn_url
-  @@cdn_url = '//cdn.ckeditor.com/4.17.0/standard/ckeditor.js'
+  @@cdn_url = '//cdn.ckeditor.com/4.24.0-lts/standard/ckeditor.js'
 
   # Url to ckeditor config, used when CDN enabled
   mattr_accessor :js_config_url
